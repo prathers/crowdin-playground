@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="messages" date="2014-06-02T11:48:40Z" product-name="dummy">
+	<file source-language="en" datatype="plaintext" original="this is orginal attribute" date="2014-06-02T11:48:40Z" product-name="dummy">
 		<header/>
 		<body>
 			<trans-unit id="label1" ref="this is a ref for label1" xml:space="preserve">
@@ -12,6 +12,16 @@
 			<trans-unit id="label3" xml:space="preserve">
 				<source>This is label 3</source>
 			</trans-unit>
+
+            <trans-unit id="label4-note" xml:space="preserve">
+				<source>this is with a note</source>
+                <note>I am a comment</note>
+			</trans-unit>
+
+            <trans-unit id="label5-notranslate" translate="no">
+                <source>don't translate me</source>
+                <note>context information</note>
+            </trans-unit>
 		</body>
 	</file>
 </xliff>
