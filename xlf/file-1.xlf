@@ -17,11 +17,19 @@
 				<source>this is with a note</source>
                 <note>I am a comment</note>
 			</trans-unit>
+			
+			
 
             <trans-unit id="label5-notranslate" translate="no">
                 <source>don't translate me</source>
                 <note>context information</note>
             </trans-unit>
+			
+			
+            <trans-unit id="label6-moreinfo" resname="label6-moreinfo" xml:space="preserve">
+				<source>this is with a note and a resname</source>
+                <note>I am a comment</note>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>
