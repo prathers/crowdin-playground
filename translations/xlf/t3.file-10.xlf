@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" date="2014-06-02T11:48:40Z" product-name="dummy" target-language="t3">
+    <header/>
+    <body>
+      <trans-unit id="label1" attribute="label1" ref="this is a ref for label1" xml:space="preserve">
+				<source>Label 1</source>
+			<target>crwdns334718:0crwdne334718:0</target></trans-unit>
+      <trans-unit id="label2" attribute="label2" xml:space="preserve">
+				<source>Label 2</source>
+			<target>crwdns334720:0crwdne334720:0</target></trans-unit>
+      <trans-unit id="label3" attribute="label3" xml:space="preserve">
+				<source>This is label 3</source>
+			<target>crwdns334722:0crwdne334722:0</target></trans-unit>
+      <trans-unit id="label4-note" attribute="label4-note" xml:space="preserve">
+				<source>this is with a note</source>
+                
+			<target>crwdns334724:0crwdne334724:0</target><note>I am a comment</note></trans-unit>
+      <trans-unit id="label5-notranslate" attribute="label5-notranslate" translate="no">
+        <source>don't translate me</source>
+        <target>crwdns334726:0crwdne334726:0</target>
+        <note>context information</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
